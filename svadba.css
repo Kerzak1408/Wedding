@@ -1,9 +1,10 @@
-body {
+html, body {
 	background-color: blue; 
     background-image: url('giphy.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: blue;
+	margin:0;padding:0;height:100%;
 }
 
 div.center {
@@ -19,7 +20,10 @@ img.rounded {
 }
 
 .transparent {
-    background: rgba(255,255,255, 0.4) /* White background with 40% opacity */
+    background: rgba(255,255,255, 0.25); /* White background with 40% opacity */
+	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 
