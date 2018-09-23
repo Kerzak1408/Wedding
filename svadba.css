@@ -3,5 +3,24 @@ body {
     background-image: url('giphy.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: blue;
 }
+
+div.center {
+    height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center }
+
+img.rounded {
+  border-radius: 90%;
+  border: 3px solid black;
+  height: 75%;
+}
+
+.transparent {
+    background: rgba(255,255,255, 0.4) /* White background with 40% opacity */
+}
+
+
   
