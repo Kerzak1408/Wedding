@@ -1,0 +1,35 @@
+.counter {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+	font-size: 100%;
+	display: inline;
+}
+
+.countainer {
+	width: 200px;
+    height: 150px; 
+}
+
+#squares div {
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+	padding: 20px;
+    /* these styles will let the divs line up next to each other
+       while accepting dimensions */
+    display: block;
+    float: left;
+
+    width: 150px;
+    height: 150px;
+    background: green;
+	font-size: 100;
+	display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+
+    /* a small margin to separate the blocks */
+    margin-right: 5px;
+}
