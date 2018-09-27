@@ -1,22 +1,42 @@
 html, body {
-	background-color: blue; 
     background-image: url('giphy.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: blue;
-	margin:0;padding:0;height:100%;
+	margin:0;
+	padding:0;
 }
 
 div.center {
-    height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center }
+	display: flex;	
+	justify-content: center;	
+}
+
+@font-face { font-family: BigdeyDemo; src: url('fonts/Lactosa_DEMO.ttf'); } 
+
+h1 { 
+	font-family: BigdeyDemo, sans-serif; 
+	font-size: 120;
+	color: OliveDrab;
+	text-align: center;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	padding: 0px;
+    margin: 0px;
+}
+
+h2 { 
+	font-family: BigdeyDemo, sans-serif; 
+	font-size: 35;
+	color: OliveDrab;
+	text-align: center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	padding: 0px;
+    margin: 0px;
+}
 
 a.rounded {
   border-radius: 90%;
   border: 0px solid black;
-  height: 75%;
+  height: 50%;
 }
 
 img.rounded {
