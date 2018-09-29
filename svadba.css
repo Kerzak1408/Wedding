@@ -16,6 +16,7 @@ div.center {
 h1 { 
 	font-family: BigdeyDemo, sans-serif; 
 	font-size: 7vw;
+	line-height: 7vw;
 	color: OliveDrab;
 	text-align: center;
 	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
@@ -28,6 +29,7 @@ h1 {
 h2 { 
 	font-family: BigdeyDemo, sans-serif; 
 	font-size: 2vw;
+	line-height: 2vw;
 	color: OliveDrab;
 	text-align: center;
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
