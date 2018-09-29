@@ -21,6 +21,8 @@ h1 {
 	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 	padding: 0px;
     margin: 0px;
+	word-wrap: break-word;
+    hyphens: auto;
 }
 
 h2 { 
