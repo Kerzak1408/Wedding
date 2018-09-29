@@ -1,3 +1,28 @@
+@font-face { font-family: Lactosa; src: url('../fonts/Lactosa_DEMO.ttf'); } 
+
+h1 { 
+	font-family: Lactosa, sans-serif; 
+	font-size: 7vw;
+	line-height: 7vw;
+	color: #6593F5;
+	text-align: center;
+	text-shadow: -3px 0 #0F52BA, 0 3px #0F52BA, 3px 0 #0F52BA, 0 -3px #0F52BA;
+	padding: 2vw  0.2vw  0.2vw  0.2vw;
+	word-wrap: break-word;
+    hyphens: auto;
+}
+
+h2 { 
+	font-family: Lactosa, sans-serif; 
+	font-size: 3vw;
+	line-height: 2vw;
+	color: #6593F5;
+	text-align: center;
+	text-shadow: -2px 0 #0F52BA, 0 2px #0F52BA, 2px 0 #0F52BA, 0 -2px #0F52BA;
+	padding: 0.2vw 0.2vw 2vw 0.2vw;
+    margin: 0px;
+}
+
 .counter {
     border-radius: 25px;
     border: 2px solid #73AD21;

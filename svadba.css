@@ -12,10 +12,10 @@ div.center {
 	justify-content: center;	
 }
 
-@font-face { font-family: BigdeyDemo; src: url('fonts/Lactosa_DEMO.ttf'); } 
+@font-face { font-family: Lactosa; src: url('fonts/Lactosa_DEMO.ttf'); } 
 
 h1 { 
-	font-family: BigdeyDemo, sans-serif; 
+	font-family: Lactosa, sans-serif; 
 	font-size: 7vw;
 	line-height: 7vw;
 	color: OliveDrab;
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 { 
-	font-family: BigdeyDemo, sans-serif; 
+	font-family: Lactosa, sans-serif; 
 	font-size: 2vw;
 	line-height: 2vw;
 	color: OliveDrab;
