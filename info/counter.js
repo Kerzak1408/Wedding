@@ -16,7 +16,38 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("time-left").innerHTML = days + " dní " + hours + " hodín " + minutes + " minút " + seconds + " sekúnd"
+  var secondsString = " sekúnd"
+  if (seconds == 1 ) {
+	  secondsString = " sekunda"
+  }
+  if (seconds > 1 && seconds < 5) {
+	  secondsString = " sekundy"
+  } 
+  
+  var minutesString = " minút "
+  if (minutes == 1 ) {
+	  minutesString = " minúta "
+  }
+  if (minutes > 1 && minutes < 5) {
+	  minutesString = " minúty "
+  } 
+  
+  var hoursString = " hodín "
+  if (hours == 1 ) {
+	  hoursString = " hodina "
+  }
+  if (hours > 1 && hours < 5) {
+	  hoursString = " hodiny "
+  } 
+  
+  var daysString = " dní "
+  if (days == 1 ) {
+	  daysString = " deň "
+  }
+  if (days > 1 && days < 5) {
+	  daysString = " dni"
+  } 
+  document.getElementById("time-left").innerHTML = days + daysString + hours + hoursString + minutes + minutesString + seconds + secondsString
 	
 
   // If the count down is finished, write some text 
