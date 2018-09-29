@@ -21,7 +21,7 @@ h1 {
 	line-height: 7vw;
 	color: OliveDrab;
 	text-align: center;
-	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	text-shadow: -0.2vw 0 black, 0 0.2vw black, 0.2vw 0 black, 0 -0.2vw black;
 	padding: 4vw  0.2vw  0.2vw  0.2vw;
 	word-wrap: break-word;
     hyphens: auto;
@@ -33,7 +33,7 @@ h2 {
 	line-height: 2vw;
 	color: OliveDrab;
 	text-align: center;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	text-shadow: -0.15vw 0 black, 0 0.15vw black, 0.15vw 0 black, 0 -0.15vw black;
 	padding: 0.2vw 0.2vw 2vw 0.2vw;
     margin: 0px;
 }
