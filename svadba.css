@@ -2,6 +2,7 @@ html, body {
     background-image: url('giphy.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 50% 50%;
 	margin:0;
 	padding:0;
 	-webkit-text-size-adjust: none;
