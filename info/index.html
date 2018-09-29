@@ -12,25 +12,30 @@
 	<link rel="stylesheet" type="text/css" href="counter.css">
 	
 	<body>
+
 		<!-- Display the countdown timer in an element -->
-		<div id="squares">
-			<div id="days"></div>
-			<div id="hours"></div>
-			<div id="minutes"></div>
+		<div id="squares" class="center">
+			<div id="days" class="time"></div>
+			<div id="hours" class="time"></div>
+			<div id="minutes" class="time"></div>
 			<div id="seconds"></div>
 		</div>​
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzIiQ0Ibj-1YmuX5Ki-LbCpvkrewdixjoSn5qHqAN2wwttFg/viewform?embedded=true" width="640" height="685" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-	
-		<!-- Button code -->
-		<div title="Add to Calendar" class="addeventatc">
-			Add to Calendar
-			<span class="start">07/13/2019 04:00 PM</span>
-			<span class="end">08/14/2019 04:00 AM</span>
-			<span class="timezone">Europe/Prague</span>
-			<span class="title">Svadba Ľubko a Lucka</span>
-			<span class="location">Botanical Garden of the City Prague, Trojská 800/196, 171 00 Praha-Praha-Troja, Czechia</span>
+		<div id="form" class="center">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzIiQ0Ibj-1YmuX5Ki-LbCpvkrewdixjoSn5qHqAN2wwttFg/viewform?embedded=true" width="640" height="685" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 		</div>
+		<!-- Button code -->
+
 		<div id="m" style="height:380px"></div>
 		<script type="text/javascript" src="map.js"></script>
+		<a href="#" class="float">
+			<div title="Add to Calendar" class="addeventatc">
+				Pridať do kalendára
+				<span class="start">07/13/2019 04:00 PM</span>
+				<span class="end">08/14/2019 04:00 AM</span>
+				<span class="timezone">Europe/Prague</span>
+				<span class="title">Svadba Ľubko a Lucka</span>
+				<span class="location">Botanical Garden of the City Prague, Trojská 800/196, 171 00 Praha-Praha-Troja, Czechia</span>
+			</div>
+		</a>
 	</body>
 </html>
