@@ -10,7 +10,7 @@ html, body {
 
 div.center {
 	display: flex;	
-	justify-content: center;	
+	justify-content: center;
 }
 
 @font-face { font-family: Lactosa; src: url('fonts/Lactosa_DEMO.ttf'); } 
@@ -19,7 +19,7 @@ h1 {
 	font-family: Lactosa, sans-serif; 
 	font-size: 7vw;
 	line-height: 7vw;
-	color: OliveDrab;
+	color: salmon;
 	text-align: center;
 	text-shadow: -0.2vw 0 black, 0 0.2vw black, 0.2vw 0 black, 0 -0.2vw black;
 	padding: 4vw  0.2vw  0.2vw  0.2vw;
@@ -31,7 +31,7 @@ h2 {
 	font-family: Lactosa, sans-serif; 
 	font-size: 2vw;
 	line-height: 2vw;
-	color: OliveDrab;
+	color: salmon;
 	text-align: center;
 	text-shadow: -0.15vw 0 black, 0 0.15vw black, 0.15vw 0 black, 0 -0.15vw black;
 	padding: 0.2vw 0.2vw 2vw 0.2vw;
@@ -40,19 +40,19 @@ h2 {
 
 a.rounded {
   border-radius: 90%;
-  border: 0px solid black;
+  border: 0px solid green;
   height: 50%;
 }
 
 img.rounded {
   border-radius: 100%;
-  border: 10px solid transparent;
+  border: 10px solid salmon;
   height: 100%;
   opacity: 0.9;
 }
 
 img.rounded:hover {
-	border: 10px solid black;
+	border: 10px solid pink;
 }
 
 .transparent {
