@@ -56,3 +56,23 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+function w3_open(content) {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("sideContent").innerHTML = content;
+  document.getElementById("openNav1").style.display = 'none';
+  document.getElementById("openNav2").style.display = 'none';
+  document.getElementById("openNav3").style.display = 'none';  
+  document.getElementById("closeNav").style.display = 'inline-block';
+}
+
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav1").style.display = "inline-block";
+  document.getElementById("openNav2").style.display = "inline-block";
+  document.getElementById("openNav3").style.display = "inline-block";
+  document.getElementById("closeNav").style.display = 'none';
+}

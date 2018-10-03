@@ -6,12 +6,32 @@
 		<!-- AddEvent script -->
 		<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 		<script type="text/javascript" src="counter.js"></script>		
-		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 
 	<link rel="stylesheet" type="text/css" href="counter.css">
 	
 	<body>
+		<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none; height:auto; position:fixed; z-index:2" id="mySidebar">
+			<p class="w3-bar-item" id="sideContent">test</p>
+		  
+		</div>
+
+		<div id="main">
+		  <button id="closeNav" class="w3-button w3-xlarge" style="display:none; position:fixed; z-index:2; " onclick="w3_close()">
+				&lt;	
+		  </button>
+		  <button id="openNav1" class="w3-button w3-xlarge" style="position:fixed; z-index:2; " onclick="w3_open('O LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO LubkoviO Lubkovi')">
+					O Ľubkovi
+		  </button>
+		  <button id="openNav2" class="w3-button w3-xlarge" style="position:fixed; z-index:2;" onclick="w3_open('b')">
+					O Lucke
+		  </button>
+		  <button id="openNav3" class="w3-button w3-xlarge" style="position:fixed; z-index:2;" onclick="w3_open('c')">
+					O nás
+		  </button>
+
+		</div>
 		<h1>Ľubko a Lucka</h1>
 		<!-- Display the countdown timer in an element -->
 		<h2 id="time-left"></h2>​
@@ -30,7 +50,7 @@
 		<h2>Tešíme sa na vás!</h2>
 
 		<a href="#" class="float">
-			<div title="Add to Calendar" class="addeventatc">
+			<div title="Add to Calendar" class="addeventatc" style="background-color:#ffffba;">
 				Pridať do kalendára
 				<span class="start">07/13/2019 04:00 PM</span>
 				<span class="end">07/14/2019 04:00 AM</span>
