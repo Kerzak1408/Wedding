@@ -1,16 +1,28 @@
 html, body {
-    background-image: url('giphy.gif');
+	background: url('giphy.gif') no-repeat center fixed transparent;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	margin:0;
 	padding:0;
 	-webkit-text-size-adjust: none;
+	-moz-background-size: cover;	
+	vertical-align: top;
+	display:block;
 }
 
-div.center {
-	display: flex;	
-	justify-content: center;
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 50%;
 }
 
 @font-face { font-family: Lactosa; src: url('fonts/Lactosa_DEMO.ttf'); } 
@@ -48,7 +60,7 @@ img.rounded {
   border-radius: 100%;
   border: 10px solid salmon;
   height: 100%;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 img.rounded:hover {
@@ -56,7 +68,6 @@ img.rounded:hover {
 }
 
 .transparent {
-    background: rgba(255,255,255, 0.15); /* White background with 40% opacity */
 	height: 100%;
 	padding: 0;
 	margin: 0;
