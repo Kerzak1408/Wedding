@@ -3,8 +3,9 @@
 
 html, body {
 	background-image: url('background1.jpg');
-		margin:0;
-	padding:0;
+	vertical-align: top;
+	margin:0;
+	padding:1;	
 	-webkit-text-size-adjust: none;
 }
 
