@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jul 13, 2019 16:00:00").getTime();
+var countDownDate = new Date("Jul 13, 2019 15:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -47,7 +47,7 @@ var x = setInterval(function() {
   if (days > 1 && days < 5) {
 	  daysString = " dni"
   } 
-  document.getElementById("time-left").innerHTML = "KEDY: 13.07.2019 o 16:00 <br>...zostáva " + days + daysString + hours + hoursString + minutes + minutesString + "a " + seconds + secondsString
+  document.getElementById("time-left").innerHTML = "KEDY: 13.07.2019 o 15:00 <br>...zostáva " + days + daysString + hours + hoursString + minutes + minutesString + "a " + seconds + secondsString
 	
 
   // If the count down is finished, write some text 
